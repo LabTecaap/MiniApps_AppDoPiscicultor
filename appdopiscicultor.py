@@ -15,7 +15,7 @@ if peso_medio >= 1 and peso_medio <=5:
   ta=15/100
   biomassa_viveiro=(meu_numero-peixes_mortos)*peso_medio
   db=biomassa_viveiro/1000
-  st.sucess('Biomassa é:', db,'kg')
+  st.success('Biomassa é:', db,'kg')
   quantidade_racao=biomassa_viveiro*ta
   racao=quantidade_racao/1000
   st.write('A quantidade de ração total a ser ofertada ao dia é:',round(racao),
