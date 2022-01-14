@@ -7,7 +7,7 @@ st.title('App do Piscicultor')
 especie = st.radio('Selecione sua espécie',['Tambatinga'])
 st.write('A espécie selecionada foi:', especie)
 peixes_mortos=st.number_input('Número de peixes mortos no viveiro:')
-import streamlit as st
+
 peso_medio=st.number_input('Peso médio dos peixes no viveiro(gramas):')
 meu_numero=st.number_input('Digite a quantidade  de peixes no viveiro (N° peixes) :')
 
