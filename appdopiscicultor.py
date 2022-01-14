@@ -14,7 +14,7 @@ meu_numero=st.number_input('Digite a quantidade  de peixes no viveiro (N° peixe
 if peso_medio >= 1 and peso_medio <=5:
   ta=15/100
   biomassa_viveiro=(meu_numero-peixes_mortos)*peso_medio
-  st.sucess('Biomassa é:', biomassa_viveiro,'gramas')
+  st.success('Biomassa é:', biomassa_viveiro,'gramas')
   quantidade_racao=biomassa_viveiro*ta
   racao=quantidade_racao/1000
   st.write('A quantidade de ração total a ser ofertada ao dia é:',racao,
